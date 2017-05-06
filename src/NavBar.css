@@ -1,0 +1,49 @@
+@media (min-width: 300px) and (max-width: 705px){
+  .navbar-form .input-group>.form-control {
+    max-width: 705px;
+    width: 705px;
+  }
+}
+
+.navbar .userButton:hover {
+  color: #E8d495;
+  background-color: #322F2E;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.navbar {
+  background-color:#322F2E;
+  border:none;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav > li > a {
+  color: #C0B07F;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  color: #C0B07F;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 24px;
+}
+
+.navbar-brand:hover {
+  color: #E8d495;
+  font-family: 'Aclonica', sans-serif;
+}
+
+.navbar-form .input-group {
+  display:table;
+}
+
+.navbar-form .form-group {
+  display:inline;
+}
+
+.navbar-form .input-group .input-group-btn {
+  width:
+  1%;
+}

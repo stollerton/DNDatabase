@@ -1,0 +1,67 @@
+.itemwell {
+  background-color: #322F2E;
+  color: #C0B07F;
+  margin: 20px auto 20px;
+  max-width: 800px;
+}
+
+.cardhead {
+  padding: 25px 30px;
+  background-color: #444141; 
+  font-family: 'Cantora One', sans-serif;
+}
+
+.card-body {
+  padding: 25px 30px;
+}
+
+.cardsubhead {
+  font-family: 'Cantora One', sans-serif;
+  padding: 0px 0px 10px;
+}
+
+.cardsubhead.item-attributes {
+
+}
+
+.cardsubhead.item-description {
+  margin-top: 20px;
+}
+
+.cardinfolist {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 18px;
+}
+
+.cardinfolist ul {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+.descriptiontext {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+
+.sourcetext {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 13px;
+  margin-top: 26px;
+}
+
+h1 {
+  margin: 0px 0px 0px 0px;
+}
+
+h2 {
+  margin: 0px 0px 0px 0px;
+}
+
+h3 {
+  margin: 0px 0px 0px 0px;
+}
+
+h4 {
+  margin: 0px 0px 0px 0px;
+}

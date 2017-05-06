@@ -1,0 +1,23 @@
+/*
+Color Scheme
+
+Darkest
+
+#1E1B1A
+#322F2E
+#444141
+#AB8D47
+#B29F63
+#C0B07F
+#E8d495
+
+Lightest
+*/
+
+.pagecontainer {
+  margin-top: 100px;
+}
+
+body {
+	background-color:#1E1B1A;
+}
