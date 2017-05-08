@@ -11,7 +11,7 @@ class App extends Component {
 
         
         this.state = {
-            db: JSON.parse(localStorage.getItem('compendium') || '{}')
+            db: JSON.parse(localStorage.getItem('compendium') || 'false')
         };
 
         console.log(this.state);
@@ -44,14 +44,18 @@ class App extends Component {
                 <div className="App-header"></div>
                 <NavBar></NavBar>
                 <ConfigData onDbUpdate={this.onDbUpdate} />
-                <div className="itemwell">
-                    <h4>Classes {this.state.db.class.length}</h4>
-                    <h4>Spells {this.state.db.spell.length}</h4>
-                    <h4>Feats {this.state.db.feat.length}</h4>
-                    <h4>Race {this.state.db.length}</h4>
-                    <h4>Monster {this.state.db.monster.length}</h4>
-                    <h4>Background {this.state.db.background.length}</h4>
-                </div>
+                {this.state.db != false &&
+                    <div className="itemwell">
+                        <h4>Classes {this.state.db.class.length}</h4>
+                        <h4>Spells {this.state.db.spell.length}</h4>
+                        <h4>Feats {this.state.db.feat.length}</h4>
+                        <h4>Race {this.state.db.length}</h4>
+                        <h4>Monster {this.state.db.monster.length}</h4>
+                        <h4>Background {this.state.db.background.length}</h4>
+                        <h4>Items {this.state.db.item.length}</h4>
+                    </div>
+                }
+                
                 <div className="pagecontainer">
                     <Item></Item>
                 </div>
