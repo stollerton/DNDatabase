@@ -66,6 +66,18 @@ class NavBar extends Component {
                                     <li>
                                         <a href="#">Monsters</a>
                                     </li>
+                                    <li>
+                                        <a href="#">Initiative Tracker</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Loot</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Item Creator</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Spell Crafter</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>

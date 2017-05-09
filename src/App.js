@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from './NavBar';
 import Item from './Item';
+import Spell from './Spell';
 import ConfigData from './ConfigData';
 import $ from 'jquery'; 
 import './App.css';
@@ -57,7 +58,7 @@ class App extends Component {
                 }
                 
                 <div className="pagecontainer">
-                    <Item></Item>
+                    <spell></spell>
                 </div>
             </div>
         );
