@@ -58,7 +58,7 @@ class App extends Component {
                 }
                 
                 <div className="pagecontainer">
-                    <spell></spell>
+                    <Spell></Spell>
                     <Items items={this.state.db.item} />
                 </div>
             </div>

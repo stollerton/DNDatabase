@@ -37,7 +37,7 @@ class Item extends Component {
                             <ItemDescription text={this.props.item.text} />
                         }
                     <div className="sourcetext">
-                        <p>Source: Dungeon Master's Guide, page 153</p>
+                        {/*<p>Source: Dungeon Master's Guide, page ###</p>*/}
                     </div>
                 </div>
             </div>
