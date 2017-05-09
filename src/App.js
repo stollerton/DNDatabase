@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from './NavBar';
-import Item from './Item';
 import Spell from './Spell';
+import Items from './Items';
 import ConfigData from './ConfigData';
 import $ from 'jquery'; 
 import './App.css';
@@ -59,6 +59,7 @@ class App extends Component {
                 
                 <div className="pagecontainer">
                     <spell></spell>
+                    <Items items={this.state.db.item} />
                 </div>
             </div>
         );

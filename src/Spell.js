@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import './Spell.css';
+import $ from 'jquery'; 
 
 class Spell extends Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
             <div className="spellwell">
@@ -31,8 +35,8 @@ class Spell extends Component {
                         <p>The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.</p>
                         <p>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
                     </div>
-                </div>
-            </div>
+                </div>        
+             </div>
         );
     }
 }
